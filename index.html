@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Disney World Vacation Planner</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="page-layout">
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <h1>My Disney Trip</h1>
+        <p>Planning the magic</p>
+      </div>
+      <nav class="sidebar-nav">
+        <a href="hotels.html" class="sidebar-link">Explore All Disney Hotels</a>
+        <a href="passes.html" class="sidebar-link">Buy Park Passes</a>
+        <a href="lightning-lane.html" class="sidebar-link">Purchase Lightning Lane</a>
+        <a href="restaurants.html" class="sidebar-link">Restaurant Ratings</a>
+        <a href="gallery.html" class="sidebar-link">Photo Gallery</a>
+      </nav>
+    </aside>
+
+    <main class="main-content">
+      <header class="main-header">
+        <h2>Walt Disney World Parks</h2>
+        <p>Click a park to explore rides, attractions, food, and more.</p>
+      </header>
+
+      <section class="park-grid">
+        <article class="park-card" data-link="magic-kingdom.html">
+           <div class="park-image" style="background-image:url(castle.jpg);"></div>
+          <div class="park-body">
+            <h3>Magic Kingdom</h3>
+            <p>The classic Disney park with Cinderella Castle, fantasy lands, and iconic attractions.</p>
+            <a href="magic-kingdom.html" class="park-map-link">Park Map</a>
+          </div>
+        </article>
+
+        <article class="park-card" data-link="epcot.html">
+          <div class="park-image" style="background-image:url(epcot.jpg);"></div>
+          <div class="park-body">
+            <h3>EPCOT</h3>
+            <p>Future World and World Showcase with global food, festivals, and innovative attractions.</p>
+            <a href="epcot.html" class="park-map-link">Park Map</a>
+          </div>
+        </article>
+
+        <article class="park-card" data-link="hollywood-studios.html">
+          <div class="park-image" style="background-image:url(studios.jpg);"></div>
+          <div class="park-body">
+            <h3>Hollywood Studios</h3>
+            <p>Star Wars, Toy Story, and Hollywood thrills on stage and screen.</p>
+            <a href="hollywood-studios.html" class="park-map-link">Park Map</a>
+          </div>
+        </article>
+
+        <article class="park-card" data-link="animal-kingdom.html">
+          <div class="park-image" style="background-image:url('https://images.pexels.com/photos/240320/pexels-photo-240320.jpeg');"></div>
+          <div class="park-body">
+            <h3>Animal Kingdom</h3>
+            <p>Wildlife, Pandora, and immersive lands celebrating nature and adventure.</p>
+            <a href="animal-kingdom.html" class="park-map-link">Park Map</a>
+          </div>
+        </article>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
